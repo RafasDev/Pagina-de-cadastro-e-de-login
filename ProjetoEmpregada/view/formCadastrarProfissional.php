@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/formCadastrarProfissional.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <title>Cadastro de Profissional de Serviços Domésticos</title>
 </head>
 
@@ -20,10 +23,19 @@
                         <h1>Cadastro de Profissional</h1>
                     </div>
                     <div class="card-body">
-                        <form action="../controller/cadastrarProfissionalController.php" method="post" enctype="multipart/form-data">
+                        <form action="../controller/cadastrarProfissionalController.php" method="post"
+                            enctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="nome">Nome Completo</label>
                                 <input type="text" class="form-control" id="nome" name="nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nome">Senha</label>
+                                <input type="password" class="form-control" id="senha" name="senha" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpf">CPF</label>
+                                <input type="text" class="form-control" id="cpf" name="cpf" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">E-mail</label>
@@ -50,11 +62,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="descricao">Descrição dos Serviços</label>
-                                <textarea class="form-control" id="descricao" name="descricao" rows="4" required></textarea>
+                                <textarea class="form-control" id="descricao" name="descricao" rows="4"
+                                    required></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="curriculo">Anexar Currículo</label>
-                                <input type="file" class="form-control-file" id="curriculo" name="curriculo" accept=".pdf,.doc,.docx">
+                                <input type="file" class="form-control-file" id="curriculo" name="curriculo"
+                                    accept=".pdf,.doc,.docx">
                             </div>
                             <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
                         </form>
