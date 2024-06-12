@@ -4,19 +4,16 @@
     
 }
 
-
-
-
 .container-fluid{
     padding: 0 !important;
 }
 
 .navbarCustomizacao {
-    background-color: var(--cor-primaria) ;
+    background-color: #0077ff; 
 }
 
 .palavraHeader{
-    color: var(--cor-secundaria) !important;
+    color: #fff7f7 !important;
     padding-left: 2%;
 }
 

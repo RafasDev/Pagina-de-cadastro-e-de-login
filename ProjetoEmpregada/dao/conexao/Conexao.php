@@ -2,9 +2,9 @@
 abstract class Conexao {
     public static function getConnection() {
         $host = 'localhost';
-        $db = 'id21965058_projeto_empregada';
-        $user = 'id21965058_root';
-        $pass = 'Projetinhofelas1@34';
+        $db = 'projeto_empregada';
+        $user = 'root';
+        $pass = '';
         $charset = 'utf8mb4';
 
         $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
