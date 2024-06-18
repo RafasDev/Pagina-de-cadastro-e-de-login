@@ -1,0 +1,22 @@
+:root {
+    --cor-primaria: #0077ff;
+    --cor-secundaria: #fff7f7;
+
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.navbarCustomizacao {
+    background-color: #0077ff;
+}
+
+.palavraHeader {
+    color: #fff7f7 !important;
+    padding-left: 2%;
+}
+
+.palavraHeader :hover {
+    color: black;
+}
