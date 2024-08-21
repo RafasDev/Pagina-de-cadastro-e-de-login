@@ -1,4 +1,4 @@
-CREATE database projeto_empregada;/* Caso não tenha criado ainda o banco de dados */
+CREATE database projeto_profissional;
 
 
 CREATE TABLE profissional (
